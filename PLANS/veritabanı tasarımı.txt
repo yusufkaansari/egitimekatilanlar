@@ -1,0 +1,50 @@
+Yemek listesi veritabanı
+db adı:
+yemekmenusu
+karşılaştırma:
+utf8mb4_general_ci
+
+tablo adı:
+menulistesi
+
+Sütunlar
+id	int
+tarih	date
+2024-11-01
+y_turu_corba	varchar
+Şehriye Çorbası
+y_turu_etli_yemek_1	varchar
+Etli Türlü
+y_turu_etli_yemek_2	varchar
+Et Kavurma
+y_turu_tavuklu_yemek	varchar
+Tavuk Sote
+y_turu_pilav_veya_makarna	varchar
+Pirinç Pilavı
+y_turu_tatli_veya_salata	varchar
+Şam Tatlısı/Salata/Meyve
+
+created_at	DATETIME
+updated_at	DATETIME
+deleted_at	DATETIME
+
+created_at
+DATETIME
+CURRENT_TIMESTAMP
+Null    true
+Yetkileri ayarla   true
+DEFAULT_GENERATED
+
+updated_at
+DATETIME
+CURRENT_TIMESTAMP
+Öznitelikler:
+on update CURRENT_TIMESTAMP	
+Null    true
+Yetkileri ayarla   true
+DEFAULT_GENERATED ON UPDATE CURRENT_TIMESTAMP
+
+deleted_at
+DATETIME
+Null    true
+Yetkileri ayarla   true
